@@ -1,0 +1,26 @@
+# Виртуальное окружение
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+db.sqlite3
+media/
+static/
+staticfiles/
+
+# IDE (PyCharm, VS Code)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Система
+.DS_Store
+Thumbs.db
+
+# Локальные настройки (если есть)
+local_settings.py
